@@ -1,5 +1,5 @@
 var path = require('path'),
-    root = path.join(__dirname, '..'),
+    root = path.join(__dirname, '../..'),
     extension = '.js';
 
 function init(options) {
