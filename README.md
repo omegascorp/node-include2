@@ -6,10 +6,10 @@ Simple module to require files by path related to root directory.
 
 **Example**
 
-  var include = require('include2');
-  include.init({
-    root: __dirname
-  });
+    var include = require('include2');
+    include.init({
+        root: __dirname
+    });
   
 **Options**
 
@@ -18,5 +18,5 @@ extension — files extendsion (by defaut .js)
 
 ## Usage
 
-  var incldue = require('include2'),
-    MainController = include('controllers/MainController');
+    var incldue = require('include2'),
+        MainController = include('controllers/MainController');
