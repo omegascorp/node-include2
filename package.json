@@ -1,6 +1,6 @@
 {
   "name": "include2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Include files by path related to root directory of the project",
   "main": "index.js",
   "keywords": [
