@@ -14,6 +14,7 @@ Simple module to require files by path related to root directory.
 **Options**
 
 root — path to root dir (by default it is parent directory of node_modules)
+
 extension — files extendsion (by defaut .js)
 
 ## Usage
