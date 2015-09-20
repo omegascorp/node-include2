@@ -2,6 +2,10 @@
 
 Simple module to require files by path related to root directory.
 
+## Installation
+
+    npm install include2
+
 ## Initialization
 
 **Example**
