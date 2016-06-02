@@ -11,6 +11,10 @@ function init(options) {
     }
 }
 function include(file) {
+    if (typeof file === 'object') {
+        init(file);
+        return;
+    }
     return require(path.join(root, file) + extension);
 }
 module.exports = include;
